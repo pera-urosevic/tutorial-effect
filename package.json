@@ -1,0 +1,30 @@
+{
+	"name": "effect-tutorial",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "^11.21.0",
+			"onFail": "download"
+		}
+	},
+	"type": "module",
+	"dependencies": {
+		"effect": "^4.0.5",
+		"tsx": "^4.23.8"
+	},
+	"devDependencies": {
+		"@types/chai": "^5.2.3",
+		"@types/node": "^26.2.0",
+		"typescript": "^7.0.2",
+		"vitest": "^5.0.5"
+	}
+}
